@@ -36,6 +36,10 @@ LIPSUMS = intvar('LIPSUM_SENTENCES', 3)
 # ALFRED_AS = 'tell application "Alfred 2" to search "fake "'
 
 FAKERS = OrderedDict([
+    # Misc
+    ('Phone', 'phone_number'),
+    ('Phone msisdn', 'msisdn'),
+    ('Job', 'job'),
     # People
     ('Name', 'name'),
     ('First Name', 'first_name'),
